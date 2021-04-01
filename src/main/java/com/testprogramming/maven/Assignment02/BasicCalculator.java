@@ -1,5 +1,5 @@
 package com.testprogramming.maven.Assignment02;
-import com.testprogramming.maven.Assignment02.BasicOperations;
+//import com.testprogramming.maven.Assignment02.BasicOperations;
 
 public class BasicCalculator implements BasicOperations {
 	public double addition(double i, double j) {
@@ -10,7 +10,7 @@ public class BasicCalculator implements BasicOperations {
 		return i-j;
 	}
 	
-	public double multiplicatio(double i, double j) {
+	public double multiplication(double i, double j) {
 		return i*j;
 	}
 	

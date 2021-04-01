@@ -1,13 +1,12 @@
 package com.testprogramming.maven.Assignment02;
-import com.testprogramming.maven.Assignment02.AdvancedCalculator;
+//import com.testprogramming.maven.Assignment02.*;
 
 public class Main {
-
 	public static void main(String[] args) {
 		BasicCalculator basic = new BasicCalculator();
 		System.out.println("9+4="+basic.addition(9, 4));
 		System.out.println("9-4="+basic.subtraction(9, 4));
-		System.out.println("9*4="+basic.multiplicatio(9, 4));
+		System.out.println("9*4="+basic.multiplication(9, 4));
 		System.out.println("9/4="+basic.division(9, 4));
 		
 		AdvancedCalculator advanced = new AdvancedCalculator();
